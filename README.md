@@ -64,3 +64,26 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+# debug-app-practice
+
+## 概要
+COACHTECH 教材 Tutorial 10-4「デバッグ ハンズオン演習」で作成した成果物です。
+（**ここに、何を作ったかを1〜2行で書きましょう**）
+
+## 使用技術
+- PHP 8.x
+- Laravel 10.x
+- デバッグツール（`dd()`, `dump()`, `Log` ファサード）
+（**他に使ったものがあれば追記してください**）
+
+## 学んだこと
+- （**自分の言葉で2〜3項目書きましょう**）
+- 
+- 
+
+## 動作確認
+（**どうやって動かして確認するかを記載してください**）
