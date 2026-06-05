@@ -22,14 +22,12 @@ class UserController extends Controller
 
     public function store(StoreUserRequest $request)
     {
-        \Log::info('User registration attempt',$request->all());
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
             'password' => bcrypt($request->password),
         ]);
         
-        \Log::info('User created successfully', ['user_id' => $user->id]);
         
         return redirect('/users');
     }
